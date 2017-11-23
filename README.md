@@ -8,15 +8,13 @@ This project is completely build on spring boot microservice. Currently it suppo
 3) Deleting bird informaiton
 4) Get all the bird information
 
-# How to run the project
-
 # Requirements to run the projects
- Maven 3 and above
- Mongo instance
- Need to configure the mongo instance details in application.properties file.
- spring.data.mongodb.database=birddata
- spring.data.mongodb.host=localhost
- spring.data.mongodb.port=27017
+Maven 3 and above
+Mongo instance
+Need to configure the mongo instance details in application.properties file.
+spring.data.mongodb.database=birddata
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
    
 Need to run below command in comman line on root folder 
   mvn spring-boot:run
